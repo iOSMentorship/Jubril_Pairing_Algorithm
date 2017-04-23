@@ -43,7 +43,6 @@ public class PairingAlgorithm {
             int numberOfLanguages = scanner.nextInt();
             weight = (int) ((yearWeight*numberOfYears)+(projectWeight*numberOfProject)+(numberOfLanguageWeight*numberOfLanguages));
             weightValues.add(Integer.signum(weight));
-            System.out.println(weight);
             hashMap.put(name,weight);
         }
         // sorts the hashmap
